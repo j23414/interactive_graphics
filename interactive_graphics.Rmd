@@ -39,3 +39,11 @@ The function get_points allows you to get successive points from a data stream. 
 Add a listener function on the mutaframe that clusters the current batch of points (you should exclude old points after some time) using a k-means approach and plots a scatterplot of points coloured by cluster affiliation (how do you get colours to be stable?).
 
 Bells and whistles: Find a way to appropriately and automaticaly decide between 2 and 3 clusters.
+
+Shiny
+------
+In case it's necessary
+```{r, eval=FALSE}
+library(shiny)
+runApp("my_app")
+```
